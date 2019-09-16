@@ -1,9 +1,9 @@
 body{
-  background-color: #273746;
+  background-color: rgba(14, 27, 216, 0.2);
   font-family: 'Roboto', sans-serif;
 }
 .first{
-  background: #839192;
+  background: rgba(215, 100, 238, 0.2);
   display: block;
   margin: 0 auto;
   width: 21.5cm;
@@ -51,14 +51,14 @@ body{
 .text{
   text-align: center;
   border-bottom-color: #273746;
-  text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-shadow: 1 4px 8px 0 rgba(123, 241, 27, 0.2);
   
   
 }
 .text1{
   box-sizing: border-box;
   width: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(34, 238, 15, 0.2);
   float: left;
   border-radius: 12px;
   border-bottom:3px solid #273746;
