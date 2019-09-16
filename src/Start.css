@@ -1,0 +1,55 @@
+.body{
+    background-color: #273746;
+    font-family: 'Roboto', sans-serif;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self:center;
+    flex-direction: column;
+}
+.two{
+    background: #839192;
+    display: block;
+    margin: 200px;
+    width: 50vh;
+    height: 25vh; 
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    border-radius: 12px;
+
+}
+.button55{
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+
+}
+.three{
+
+}
+.text-head{
+    color: aliceblue;
+    font-size: 350%;
+
+}
+.color{
+    color: yellow;
+    font-size: 350%;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
