@@ -56,7 +56,7 @@ class App extends React.Component {
     let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>เริ่มเกมใหม่</h1></button>;
     let ans = this.state.completed === false ? '' : <h3 className="ans">คำตอบคือ {message}</h3>;
     let checks = this.state.completed === false ? '' : <h1 className="win">คุณชนะ</h1>;
-    //let count_end = this.state.counter > 5 ? "Game Over" : "Counter : " + this.state.counter;
+    //let count_end = this.state.counter > 3 ? "Game Over" : "Counter : " + this.state.counter;
 
     return (
       <div>
@@ -91,7 +91,7 @@ class App extends React.Component {
               }
               <div className="box">
                 <h1 className="text">เลือก</h1>
-                <h1 className="text">คุณสามารถเล่นได้ 5 ครั้ง</h1>
+                <h1 className="text">คุณสามารถเล่นได้ 3 ครั้ง</h1>
                 {
                   Array.from(this.state.guess).map((x, y) => (
                     <Event
