@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(14, 27, 216, 0.2);
+  background-color: rgba(11, 26, 238, 0.2);
   font-family: 'Roboto', sans-serif;
 }
 .first{
@@ -9,7 +9,7 @@ body{
   width: 21.5cm;
   height: 30.7cm; 
   margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  box-shadow: 0 0 0.5cm rgba(245, 16, 16, 0.5);
   
 }
 .profile{
@@ -18,7 +18,7 @@ body{
   margin: 16px 32px;
   border-radius: 100%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-bottom:3px solid #273746;
+  border-bottom:3px solid #d8be;
   
 }
 .profile-area{
@@ -36,11 +36,11 @@ body{
   user-select: none;
   cursor: pointer;
   border-radius: 12px;
-  border-bottom:3px solid #273746;
+  border-bottom:3px solid #d8be;
 }
 .activeCard {
- color: #273746;
- background: #566573;
+ color: #eb1bb7;
+ background: #190bdb;
 }
 .center-text{
   display: flex;
@@ -51,7 +51,7 @@ body{
 .text{
   text-align: center;
   border-bottom-color: #273746;
-  text-shadow: 1 4px 8px 0 rgba(123, 241, 27, 0.2);
+  text-shadow: 1 4px 8px 0 rgba(31, 228, 47, 0.2);
   
   
 }
@@ -61,7 +61,7 @@ body{
   box-shadow: 0 4px 8px 0 rgba(34, 238, 15, 0.2);
   float: left;
   border-radius: 12px;
-  border-bottom:3px solid #273746;
+  border-bottom:3px solid #ee78d0;
 }
 .click{
   display: flex;
@@ -72,20 +72,7 @@ body{
 
 }
 
-.button-show{
-  border: none;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  color: black;
-  background: #808B96; 
-  border-radius: 12px;
-  text-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
-  border-bottom:3px solid #273746;
-}
+
 .button-show:hover{
   box-shadow:2px 2px 8px #000000;
   background: whitesmoke;
@@ -115,7 +102,7 @@ body{
 }
 .box{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background: #566573;
+  background: #7baedd;
   border-radius: 12px;
 }
 .button{
@@ -128,7 +115,7 @@ body{
   cursor: pointer;
   background-color: white; 
   color: black; 
-  border: 2px solid #273746;
+  border: 2px solid #17ac12;
   border-radius: 12px;
   text-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
 
@@ -147,7 +134,7 @@ body{
 }
 .button:hover{
   box-shadow:2px 2px 8px #000000;
-  background: #808B96;
+  background: rgb(18, 231, 100);
   border: 2px solid #273746;
 }
 .win{

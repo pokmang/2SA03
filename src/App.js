@@ -70,12 +70,8 @@ class App extends React.Component {
               <div className="center-text">
                 <div className="text1"><h1 className="text">LAB:3SA03   </h1></div>
                 <div className="click">
-                  <div className="button-a">
-                    <button className="button-show" onClick={this.show_name}>{this.state.show === false ? 'Show my name' : 'Hide my name'}</button>
-                  </div>
                   <div className="box-myname">
-                    <div></div>
-                    <h3 className="text">{this.state.show === true ? 'Usman sulong' : '...'}</h3>
+                    <h3 className="text">ผู้เล่น : อุสมาน </h3>
                   </div>
                 </div>
               </div>
@@ -94,7 +90,7 @@ class App extends React.Component {
                 ))
               }
               <div className="box">
-                <h1 className="text">Choose</h1>
+                <h1 className="text">เลือก</h1>
                 <h1 className="text">คุณสามารถเล่นได้ 5 ครั้ง</h1>
                 {
                   Array.from(this.state.guess).map((x, y) => (
@@ -118,7 +114,7 @@ class App extends React.Component {
             </div>
             <div className="center-text">
               <button className="button-show" onClick={this.give_ups}>ซ่อน</button>
-              <h3>{this.state.give_up === true ? 'Ans:Fruit' : ''}</h3>
+              <h3>{this.state.give_up === true ? 'คำตอบ : โหมดสัตว์' : ''}</h3>
             </div>
           </div>
         </div>
